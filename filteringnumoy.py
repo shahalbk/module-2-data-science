@@ -9,3 +9,13 @@ a = np.array([
 marks = a[a>40]
 
 print(marks)
+
+new_mark = a[(a>40) & (a<90)]
+print(new_mark)
+
+new_mark = a[(a<50) | (a>90)]
+print(new_mark)
+
+updated_marks = a[~(a<60)]
+
+print(updated_marks)
