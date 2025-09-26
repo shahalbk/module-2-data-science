@@ -16,6 +16,6 @@ print(new_mark)
 new_mark = a[(a<50) | (a>90)]
 print(new_mark)
 
-updated_marks = a[~(a<60)]
+updated_marks = a[~(a<60)]#opposite,the symbol name is tilde.
 
 print(updated_marks)
